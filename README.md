@@ -3,6 +3,7 @@
 During this lab, you will use [Watson IoT][watson_iot] to collect live sensor data from smartphones & calculate the energy generated per user.
 
 You can see a version of this app that is already running [here](https://stepiot.mybluemix.net/red/). 
+Players can view their smartphone sensor data [here](https://ibm.biz/stepiot). You can deploy your own version of this application by clicking [here](https://bluemix.net/deploy?repository=https://github.com/ibm-messaging/discover-iot-sample). Just ensure that both applications are using the same Watson IoT service :)
 
  ![Overview](http://i.imgur.com/vE6Wpcl.jpg)
 
@@ -45,7 +46,8 @@ You can also find your application name when you click on your application in Bl
 
 ## Capture and store the data using NodeRED
 
-1. Start your NodeRED instance by opening the URL <yourUniqueName>.mybluemix.net/red – where <yourUniqueName> is the one you’ve chosen in the previous step. You should see a little sample app:
+1. Start your NodeRED instance by opening the URL <yourUniqueName>.mybluemix.net/red – w
+<yourUniqueName> is the one you’ve chosen in the previous step. You should see a little sample app:
 
  ![NodeRED](http://developer.ibm.com/iotplatform/wp-content/uploads/sites/24/2016/08/Untitled9.png)
  
