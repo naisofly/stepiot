@@ -6,7 +6,3 @@ applications:
   name: stepiot
   host: stepiot
   disk_quota: 1024M
-  services:
-  - stepiot-cloudantNoSQLDB
-  - stepiot-iotf-service
-  - dashDB for BoomShake
