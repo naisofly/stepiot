@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: stepiot
+  host: stepiot
+  disk_quota: 1024M
+  services:
+  - stepiot-cloudantNoSQLDB
+  - stepiot-iotf-service
+  - dashDB for BoomShake
